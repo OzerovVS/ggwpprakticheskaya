@@ -16,6 +16,7 @@
         int g = Convert.ToInt32(Console.ReadLine());
         if (g == 1)
         {
+            Console.Clear();
             Console.ResetColor();
             Console.WriteLine("Необходимо угадать число находящееся в дапазоне от 1 до 100");
             Random r = new Random();
@@ -63,6 +64,7 @@
         }
         if (g == 2)
         {
+            Console.Clear();
             Console.WriteLine("Таблица умножения: ");
             Console.ResetColor();
             while (true)
@@ -102,6 +104,7 @@
         {
             while (true)
             {
+                Console.Clear();
                 Console.ResetColor();
                 Console.WriteLine("Введите число, которого Вы хотите узнать делители");
                 Console.ForegroundColor = ConsoleColor.Green;
